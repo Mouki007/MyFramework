@@ -2,9 +2,9 @@ package com.pk.API;
 
 import org.testng.annotations.Test;
 
+import com.pk.utilities.Payload;
 
 import io.restassured.RestAssured;
-import utilities.Payload;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;

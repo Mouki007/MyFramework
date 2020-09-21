@@ -6,12 +6,14 @@ import static org.hamcrest.Matchers.equalTo;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.pk.utilities.Payload;
+import com.pk.utilities.RawJson;
+
 import io.restassured.RestAssured;
-import utilities.Payload;
-import utilities.RawJson;
 
 public class AddPlaceResonse_Parsing {
 
+	//Handling multiple requests 
 	@Test
 	public void parseResponse() {
 		RestAssured.baseURI = "https://rahulshettyacademy.com";

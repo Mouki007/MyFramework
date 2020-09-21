@@ -3,9 +3,10 @@ package com.pk.API;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.pk.utilities.Payload;
+import com.pk.utilities.RawJson;
+
 import io.restassured.path.json.JsonPath;
-import utilities.RawJson;
-import utilities.Payload;
 
 public class ParseComplexJson {
 	
